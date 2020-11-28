@@ -140,13 +140,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: inherit;
-		text-decoration: none;
+		text-decoration: none !important;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+			text-decoration: none !important;
 		}
 
 	strong, b {
@@ -2018,6 +2019,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		margin: 25px;
 	}
 
 		/* .icon:before {
@@ -2695,6 +2697,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		/* padding: 20px; */
 	}
 
 		.spotlight .image {
@@ -4036,6 +4039,7 @@ input, select, textarea {
 
 .skills {
 	text-align: center !important;
+	color: #555 !important;
 }
 
 .skills-title {
@@ -4054,5 +4058,10 @@ input, select, textarea {
 	width: 100%;
 	padding: 20px;
 }
+
+button {
+	outline: none;
+}
+
 
 
