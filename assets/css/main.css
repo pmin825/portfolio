@@ -4061,6 +4061,13 @@ input, select, textarea {
 
 button {
 	outline: none;
+	margin-bottom: 1px;
+	padding: 5px;
+}
+
+button h2 {
+	margin-left:5px;
+	margin-right: 5px;
 }
 
 
